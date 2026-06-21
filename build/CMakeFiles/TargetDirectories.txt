@@ -1,0 +1,3 @@
+/home/muharem/CLionProjects/Test/build/CMakeFiles/Test.dir
+/home/muharem/CLionProjects/Test/build/CMakeFiles/edit_cache.dir
+/home/muharem/CLionProjects/Test/build/CMakeFiles/rebuild_cache.dir
