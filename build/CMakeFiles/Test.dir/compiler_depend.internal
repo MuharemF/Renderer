@@ -3,6 +3,8 @@
 
 CMakeFiles/Test.dir/main.cpp.o
  /home/muharem/CLionProjects/Test/main.cpp
+ /home/muharem/CLionProjects/Test/color.h
+ /home/muharem/CLionProjects/Test/vec3.h
  /usr/include/alloca.h
  /usr/include/asm-generic/bitsperlong.h
  /usr/include/asm-generic/errno-base.h
@@ -57,6 +59,7 @@ CMakeFiles/Test.dir/main.cpp.o
  /usr/include/c++/15.2.0/bits/ranges_util.h
  /usr/include/c++/15.2.0/bits/refwrap.h
  /usr/include/c++/15.2.0/bits/requires_hosted.h
+ /usr/include/c++/15.2.0/bits/specfun.h
  /usr/include/c++/15.2.0/bits/std_abs.h
  /usr/include/c++/15.2.0/bits/stl_algobase.h
  /usr/include/c++/15.2.0/bits/stl_construct.h
@@ -76,6 +79,7 @@ CMakeFiles/Test.dir/main.cpp.o
  /usr/include/c++/15.2.0/cctype
  /usr/include/c++/15.2.0/cerrno
  /usr/include/c++/15.2.0/clocale
+ /usr/include/c++/15.2.0/cmath
  /usr/include/c++/15.2.0/compare
  /usr/include/c++/15.2.0/concepts
  /usr/include/c++/15.2.0/cstddef
@@ -96,6 +100,7 @@ CMakeFiles/Test.dir/main.cpp.o
  /usr/include/c++/15.2.0/iosfwd
  /usr/include/c++/15.2.0/iostream
  /usr/include/c++/15.2.0/istream
+ /usr/include/c++/15.2.0/limits
  /usr/include/c++/15.2.0/new
  /usr/include/c++/15.2.0/numbers
  /usr/include/c++/15.2.0/ostream
@@ -105,6 +110,18 @@ CMakeFiles/Test.dir/main.cpp.o
  /usr/include/c++/15.2.0/string
  /usr/include/c++/15.2.0/string_view
  /usr/include/c++/15.2.0/system_error
+ /usr/include/c++/15.2.0/tr1/bessel_function.tcc
+ /usr/include/c++/15.2.0/tr1/beta_function.tcc
+ /usr/include/c++/15.2.0/tr1/ell_integral.tcc
+ /usr/include/c++/15.2.0/tr1/exp_integral.tcc
+ /usr/include/c++/15.2.0/tr1/gamma.tcc
+ /usr/include/c++/15.2.0/tr1/hypergeometric.tcc
+ /usr/include/c++/15.2.0/tr1/legendre_function.tcc
+ /usr/include/c++/15.2.0/tr1/modified_bessel_func.tcc
+ /usr/include/c++/15.2.0/tr1/poly_hermite.tcc
+ /usr/include/c++/15.2.0/tr1/poly_laguerre.tcc
+ /usr/include/c++/15.2.0/tr1/riemann_zeta.tcc
+ /usr/include/c++/15.2.0/tr1/special_function_util.h
  /usr/include/c++/15.2.0/tuple
  /usr/include/c++/15.2.0/type_traits
  /usr/include/c++/15.2.0/typeinfo
@@ -130,6 +147,7 @@ CMakeFiles/Test.dir/main.cpp.o
  /usr/include/linux/stddef.h
  /usr/include/linux/types.h
  /usr/include/locale.h
+ /usr/include/math.h
  /usr/include/sched.h
  /usr/include/stdc-predef.h
  /usr/include/stdio.h
@@ -150,9 +168,19 @@ CMakeFiles/Test.dir/main.cpp.o
  /usr/include/x86_64-linux-gnu/bits/errno.h
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h
  /usr/include/x86_64-linux-gnu/bits/floatn.h
+ /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h
+ /usr/include/x86_64-linux-gnu/bits/fp-fast.h
+ /usr/include/x86_64-linux-gnu/bits/fp-logb.h
+ /usr/include/x86_64-linux-gnu/bits/iscanonical.h
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h
+ /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h
  /usr/include/x86_64-linux-gnu/bits/locale.h
  /usr/include/x86_64-linux-gnu/bits/long-double.h
+ /usr/include/x86_64-linux-gnu/bits/math-vector.h
+ /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h
+ /usr/include/x86_64-linux-gnu/bits/mathcalls-macros.h
+ /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h
+ /usr/include/x86_64-linux-gnu/bits/mathcalls.h
  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
