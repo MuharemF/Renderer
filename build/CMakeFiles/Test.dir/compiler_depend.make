@@ -3,6 +3,7 @@
 
 CMakeFiles/Test.dir/main.cpp.o: /home/muharem/CLionProjects/Test/main.cpp \
   /home/muharem/CLionProjects/Test/color.h \
+  /home/muharem/CLionProjects/Test/ray.h \
   /home/muharem/CLionProjects/Test/vec3.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
@@ -413,6 +414,8 @@ Test: /lib64/ld-linux-x86-64.so.2 \
 
 /usr/include/c++/15.2.0/x86_64-unknown-linux-gnu/bits/ctype_inline.h:
 
+/usr/include/c++/15.2.0/x86_64-unknown-linux-gnu/bits/c++locale.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
 
 /usr/include/c++/15.2.0/bits/stringfwd.h:
@@ -497,13 +500,9 @@ CMakeFiles/Test.dir/main.cpp.o:
 
 /usr/include/c++/15.2.0/bits/hash_bytes.h:
 
-/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
+/usr/lib/x86_64-linux-gnu/libgcc_s.so.1:
 
-/usr/include/c++/15.2.0/bits/stl_iterator_base_funcs.h:
-
-/usr/include/x86_64-linux-gnu/bits/byteswap.h:
-
-/usr/include/c++/15.2.0/x86_64-unknown-linux-gnu/bits/atomic_word.h:
+/usr/include/c++/15.2.0/bits/functional_hash.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
 
@@ -525,21 +524,17 @@ CMakeFiles/Test.dir/main.cpp.o:
 
 /usr/include/c++/15.2.0/tr1/modified_bessel_func.tcc:
 
+/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
+
+/usr/include/c++/15.2.0/bits/stl_iterator_base_funcs.h:
+
+/usr/include/x86_64-linux-gnu/bits/byteswap.h:
+
+/usr/include/c++/15.2.0/x86_64-unknown-linux-gnu/bits/atomic_word.h:
+
 /usr/include/stdc-predef.h:
 
 /usr/include/asm-generic/posix_types.h:
-
-/usr/include/c++/15.2.0/bits/allocator.h:
-
-/usr/include/time.h:
-
-/usr/include/c++/15.2.0/bits/streambuf_iterator.h:
-
-/usr/include/asm-generic/errno.h:
-
-/usr/include/c++/15.2.0/bits/nested_exception.h:
-
-/usr/include/c++/15.2.0/bits/basic_ios.h:
 
 /usr/include/c++/15.2.0/bits/functexcept.h:
 
@@ -565,6 +560,18 @@ CMakeFiles/Test.dir/main.cpp.o:
 
 /usr/include/c++/15.2.0/bit:
 
+/usr/include/asm-generic/errno.h:
+
+/usr/include/c++/15.2.0/bits/nested_exception.h:
+
+/usr/include/c++/15.2.0/bits/basic_ios.h:
+
+/usr/include/c++/15.2.0/bits/allocator.h:
+
+/usr/include/time.h:
+
+/usr/include/c++/15.2.0/bits/streambuf_iterator.h:
+
 /usr/include/c++/15.2.0/bits/requires_hosted.h:
 
 /usr/include/c++/15.2.0/bits/istream.tcc:
@@ -574,10 +581,6 @@ CMakeFiles/Test.dir/main.cpp.o:
 /usr/include/c++/15.2.0/bits/basic_ios.tcc:
 
 /usr/include/c++/15.2.0/tr1/riemann_zeta.tcc:
-
-/usr/lib/x86_64-linux-gnu/libgcc_s.so.1:
-
-/usr/include/c++/15.2.0/bits/functional_hash.h:
 
 /usr/include/c++/15.2.0/tr1/legendre_function.tcc:
 
@@ -646,6 +649,8 @@ CMakeFiles/Test.dir/main.cpp.o:
 /usr/include/c++/15.2.0/bits/uses_allocator_args.h:
 
 /usr/include/x86_64-linux-gnu/bits/cpu-set.h:
+
+/home/muharem/CLionProjects/Test/ray.h:
 
 /usr/include/c++/15.2.0/ext/string_conversions.h:
 
@@ -766,5 +771,3 @@ CMakeFiles/Test.dir/main.cpp.o:
 /usr/include/x86_64-linux-gnu/bits/locale.h:
 
 /usr/include/c++/15.2.0/x86_64-unknown-linux-gnu/bits/c++allocator.h:
-
-/usr/include/c++/15.2.0/x86_64-unknown-linux-gnu/bits/c++locale.h:
