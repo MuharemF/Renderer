@@ -203,4 +203,5 @@ CMakeFiles/Test.dir/main.cpp.o: /home/muharem/CLionProjects/Test/main.cpp \
  /usr/include/c++/15.2.0/tr1/modified_bessel_func.tcc \
  /usr/include/c++/15.2.0/tr1/poly_hermite.tcc \
  /usr/include/c++/15.2.0/tr1/poly_laguerre.tcc \
- /usr/include/c++/15.2.0/tr1/riemann_zeta.tcc
+ /usr/include/c++/15.2.0/tr1/riemann_zeta.tcc \
+ /home/muharem/CLionProjects/Test/ray.h

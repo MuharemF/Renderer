@@ -5,4 +5,5 @@ set(CMAKE_CXX_STANDARD 20)
 
 add_executable(Test main.cpp
         vec3.h
-        color.h)
+        color.h
+        ray.h)

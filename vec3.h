@@ -49,7 +49,7 @@ public:
         return *this;
 
     }
-    //this is a trick to define scalor multiplication or divison
+    //this is a trick to define scalar multiplication or divison
     vec3&operator/=(double t) {
         return *this *= 1/t;
     }
