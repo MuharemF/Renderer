@@ -1,7 +1,7 @@
 //
 // Created by muharem on 6/27/26.
 //
-//test comment
+
 #ifndef TEST_SPHERE_H
 #define TEST_SPHERE_H
 #include "hitTable.h"
