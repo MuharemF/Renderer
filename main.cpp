@@ -3,7 +3,8 @@
 #include "vec3.h"
 #include <iostream>
 using namespace std;
-
+// we can create the circle using the formula x^2+y^2+z^2=r^2
+//however it is better to use the formula h=b/(-2)=d*(C-Q)
 double hit_sphere(const point3& center, double radius, const ray& r) {
     vec3 oc = center - r.origin();
     auto a = dot(r.direction(), r.direction());
