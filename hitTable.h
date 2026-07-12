@@ -4,7 +4,7 @@
 //test comment
 #ifndef TEST_HITTABLE_H
 #define TEST_HITTABLE_H
-#include "ray.h"
+
 class hitRecord {
 public:
     point3 p;
@@ -18,14 +18,12 @@ public:
         //ray is pointing inside the sphere (not in view if the user)
         if (dot(r.direction(),outwardNormal)<0.0)
         {
-            normal=-outwardNormal;
-            frontFace=false;
-
+          frontFace=true;
+            normal = outwardNormal;
         }else
         {
-            //ray is pointing outside the sphere towards the viewer/user
-            normal=outwardNormal;
-            frontFace=true;
+            frontFace=false;
+            normal=-outwardNormal;
         }
     }
 

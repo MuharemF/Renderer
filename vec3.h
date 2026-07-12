@@ -6,8 +6,7 @@
 #define TEST_VEC3_H
 
 
-#include <iostream>
-#include <cmath>
+
 
 class vec3 {
 public:
@@ -51,7 +50,7 @@ public:
     }
     //this is a trick to define scalar multiplication or divison
     vec3&operator/=(double t) {
-        return *this *= 1/t;
+        return *this *= 1.0/t;
     }
 
 

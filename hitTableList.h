@@ -5,16 +5,15 @@
 #ifndef TEST_HITTABLELIST_H
 #define TEST_HITTABLELIST_H
 #include "hitTable.h"
-#include <memory>
+
 #include <vector>
-using std::make_shared;
-using std::shared_ptr;
+
 
 class hitTableList: public hitTable
 {
 public:
     std::vector<shared_ptr<hitTable>>objs;
-    hitTableList();
+    hitTableList(){}
     hitTableList(shared_ptr<hitTable>obj)
     {
         add(obj);
