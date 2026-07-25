@@ -253,7 +253,9 @@ CMakeFiles/Test.dir/main.cpp.o: /home/muharem/CLionProjects/Test/main.cpp \
  /home/muharem/CLionProjects/Test/color.h \
  /home/muharem/CLionProjects/Test/vec3.h \
  /home/muharem/CLionProjects/Test/ray.h \
+ /home/muharem/CLionProjects/Test/interval.h \
  /home/muharem/CLionProjects/Test/hitTable.h \
+ /home/muharem/CLionProjects/Test/camera.h \
  /home/muharem/CLionProjects/Test/hitTableList.h \
  /usr/include/c++/15.2.0/vector /usr/include/c++/15.2.0/bits/stl_vector.h \
  /usr/include/c++/15.2.0/bits/stl_bvector.h \

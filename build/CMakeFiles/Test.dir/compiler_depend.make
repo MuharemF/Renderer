@@ -3,9 +3,11 @@
 
 CMakeFiles/Test.dir/main.cpp.o: /home/muharem/CLionProjects/Test/main.cpp \
   /home/muharem/CLionProjects/Test/Ray_Tracing_Weekend.h \
+  /home/muharem/CLionProjects/Test/camera.h \
   /home/muharem/CLionProjects/Test/color.h \
   /home/muharem/CLionProjects/Test/hitTable.h \
   /home/muharem/CLionProjects/Test/hitTableList.h \
+  /home/muharem/CLionProjects/Test/interval.h \
   /home/muharem/CLionProjects/Test/ray.h \
   /home/muharem/CLionProjects/Test/sphere.h \
   /home/muharem/CLionProjects/Test/vec3.h \
@@ -375,6 +377,10 @@ Test: /lib64/ld-linux-x86-64.so.2 \
 
 /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
 
+/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
+
 /usr/include/c++/15.2.0/iostream:
 
 /usr/include/c++/15.2.0/x86_64-unknown-linux-gnu/bits/ctype_base.h:
@@ -451,11 +457,11 @@ Test: /lib64/ld-linux-x86-64.so.2 \
 
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
 
-/usr/include/c++/15.2.0/bits/basic_ios.tcc:
-
 /usr/include/c++/15.2.0/bits/stl_raw_storage_iter.h:
 
 /usr/include/c++/15.2.0/bits/requires_hosted.h:
+
+/usr/include/c++/15.2.0/bits/basic_ios.tcc:
 
 /usr/include/c++/15.2.0/bits/istream.tcc:
 
@@ -495,15 +501,15 @@ Test: /lib64/ld-linux-x86-64.so.2 \
 
 /usr/include/c++/15.2.0/bits/ostream_insert.h:
 
+/usr/include/c++/15.2.0/bits/ranges_uninitialized.h:
+
+/usr/include/c++/15.2.0/bits/ostream.tcc:
+
 /usr/include/c++/15.2.0/bits/localefwd.h:
 
 /usr/include/c++/15.2.0/bits/basic_string.h:
 
 /usr/include/c++/15.2.0/bits/memory_resource.h:
-
-/usr/include/c++/15.2.0/bits/ranges_uninitialized.h:
-
-/usr/include/c++/15.2.0/bits/ostream.tcc:
 
 /usr/include/c++/15.2.0/bits/cxxabi_forced.h:
 
@@ -522,6 +528,10 @@ Test: /lib64/ld-linux-x86-64.so.2 \
 /usr/include/asm-generic/posix_types.h:
 
 /usr/include/stdc-predef.h:
+
+/usr/include/c++/15.2.0/bits/functional_hash.h:
+
+/usr/include/c++/15.2.0/bits/std_abs.h:
 
 /usr/include/c++/15.2.0/bits/streambuf_iterator.h:
 
@@ -547,6 +557,8 @@ Test: /lib64/ld-linux-x86-64.so.2 \
 
 /usr/include/c++/15.2.0/bits/alloc_traits.h:
 
+/home/muharem/CLionProjects/Test/interval.h:
+
 /usr/include/c++/15.2.0/bits/string_view.tcc:
 
 /usr/include/c++/15.2.0/bits/stl_algobase.h:
@@ -562,6 +574,10 @@ Test: /lib64/ld-linux-x86-64.so.2 \
 /usr/include/c++/15.2.0/bits/cpp_type_traits.h:
 
 /usr/include/c++/15.2.0/bits/charconv.h:
+
+/usr/include/x86_64-linux-gnu/bits/environments.h:
+
+/usr/include/c++/15.2.0/bits/ranges_util.h:
 
 /usr/include/c++/15.2.0/bits/atomic_wait.h:
 
@@ -589,6 +605,16 @@ Test: /lib64/ld-linux-x86-64.so.2 \
 
 /usr/include/c++/15.2.0/bits/ptr_traits.h:
 
+/usr/include/c++/15.2.0/compare:
+
+/usr/include/c++/15.2.0/bits/exception_ptr.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
+
+/usr/include/c++/15.2.0/bits/stl_construct.h:
+
+/home/muharem/CLionProjects/Test/camera.h:
+
 /usr/include/c++/15.2.0/debug/debug.h:
 
 /home/muharem/CLionProjects/Test/hitTable.h:
@@ -602,8 +628,6 @@ Test: /lib64/ld-linux-x86-64.so.2 \
 /usr/include/c++/15.2.0/bits/move.h:
 
 /usr/include/c++/15.2.0/bits/memoryfwd.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/wchar.h:
 
@@ -623,11 +647,13 @@ Test: /lib64/ld-linux-x86-64.so.2 \
 
 /usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
 
-/usr/include/c++/15.2.0/bits/std_abs.h:
+/usr/include/linux/limits.h:
 
-/usr/include/c++/15.2.0/bits/ranges_util.h:
+/usr/include/endian.h:
 
-/usr/include/x86_64-linux-gnu/bits/environments.h:
+/usr/include/stdint.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
 
 /usr/include/c++/15.2.0/bits/std_mutex.h:
 
@@ -642,22 +668,6 @@ Test: /lib64/ld-linux-x86-64.so.2 \
 /usr/include/c++/15.2.0/tr1/bessel_function.tcc:
 
 /usr/include/c++/15.2.0/bits/char_traits.h:
-
-/usr/include/linux/limits.h:
-
-/usr/include/endian.h:
-
-/usr/include/stdint.h:
-
-/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
-
-/usr/include/c++/15.2.0/compare:
-
-/usr/include/c++/15.2.0/bits/exception_ptr.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
-
-/usr/include/c++/15.2.0/bits/stl_construct.h:
 
 /usr/include/c++/15.2.0/bit:
 
@@ -679,8 +689,6 @@ Test: /lib64/ld-linux-x86-64.so.2 \
 
 /usr/include/c++/15.2.0/bits/functexcept.h:
 
-/usr/include/c++/15.2.0/bits/functional_hash.h:
-
 /usr/include/alloca.h:
 
 /usr/include/c++/15.2.0/bits/hash_bytes.h:
@@ -688,6 +696,14 @@ Test: /lib64/ld-linux-x86-64.so.2 \
 /usr/include/c++/15.2.0/bits/locale_facets.h:
 
 /usr/include/c++/15.2.0/bits/invoke.h:
+
+/usr/include/c++/15.2.0/iosfwd:
+
+/usr/include/features.h:
+
+/usr/include/c++/15.2.0/bits/ios_base.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
 
 /usr/include/c++/15.2.0/bits/iterator_concepts.h:
 
@@ -718,14 +734,6 @@ Test: /lib64/ld-linux-x86-64.so.2 \
 /usr/include/c++/15.2.0/ext/concurrence.h:
 
 /home/muharem/CLionProjects/Test/hitTableList.h:
-
-/usr/include/c++/15.2.0/iosfwd:
-
-/usr/include/features.h:
-
-/usr/include/c++/15.2.0/bits/ios_base.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
 
 /usr/include/c++/15.2.0/memory:
 
@@ -940,5 +948,3 @@ CMakeFiles/Test.dir/main.cpp.o:
 /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:

@@ -4,9 +4,11 @@
 CMakeFiles/Test.dir/main.cpp.o
  /home/muharem/CLionProjects/Test/main.cpp
  /home/muharem/CLionProjects/Test/Ray_Tracing_Weekend.h
+ /home/muharem/CLionProjects/Test/camera.h
  /home/muharem/CLionProjects/Test/color.h
  /home/muharem/CLionProjects/Test/hitTable.h
  /home/muharem/CLionProjects/Test/hitTableList.h
+ /home/muharem/CLionProjects/Test/interval.h
  /home/muharem/CLionProjects/Test/ray.h
  /home/muharem/CLionProjects/Test/sphere.h
  /home/muharem/CLionProjects/Test/vec3.h

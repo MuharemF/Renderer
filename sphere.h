@@ -9,7 +9,7 @@
 class sphere :public hitTable{
 public:
     sphere(const point3& center, double radius) : center(center), radius(std::fmax(0,radius)){}
-    bool hit(const ray& r, double rayTMin, double rayTMax,hitRecord& rec ) const override
+    bool hit(const ray& r, interval rayT,hitRecord& rec ) const override
     {
         vec3 oc = center-r.origin();
         auto a=r.direction().lengthSquared();
@@ -22,10 +22,10 @@ public:
         auto sqrtd=std::sqrt(discriminant);
         //nearest root that lies in acceptable range
         auto root =(h-sqrtd)/a;
-        if (root<=rayTMin||rayTMax<=root)
+        if (!rayT.surrounds(root))
         {
             root=(h+sqrtd)/a;
-            if (root<=rayTMin||rayTMax<=root)
+            if (!rayT.surrounds(root))
             {
                 return false;
             }

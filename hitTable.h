@@ -33,7 +33,7 @@ public:
 class hitTable {
 public:
     virtual ~hitTable()= default;
-    virtual  bool hit(const ray&r,double rayTmin,double rayTmax, hitRecord& rec)const =0;
+    virtual  bool hit(const ray&r,interval rayT, hitRecord& rec)const =0;
 };
 
 #endif //TEST_HITTABLE_H

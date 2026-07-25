@@ -27,14 +27,15 @@ public:
         objs.push_back(obj);
 
     }
-    bool hit(const ray& r, double rayTmin, double rayTmax, hitRecord& rec)const override
+    bool hit(const ray& r, interval rayT, hitRecord& rec)const override
     {
+
         hitRecord tempRec;
         bool hitAnything= false;
-        auto closestSoFar=rayTmax;
+        auto closestSoFar=rayT.max;
         for (const auto& obj:objs)
         {
-            if (obj->hit(r,rayTmin,closestSoFar,tempRec))
+            if (obj->hit(r,interval(rayT.min,closestSoFar),tempRec))
             {
                 hitAnything=true;
                 closestSoFar=tempRec.t;
